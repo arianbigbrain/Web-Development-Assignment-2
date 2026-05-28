@@ -1,0 +1,117 @@
+VISIT KELANTAN WEBSITE CHECKLIST
+
+PROJECT BASIC REQUIREMENTS
+
+[/] Topic proposed: Visit Kelantan
+[/] Minimum 6 pages
+[ ] Resources included
+[ ] Sitemap drawn
+[ ] Wireframe for each page
+[ ] Use Justinmind / Canva / PowerPoint / paper
+[/] Create website using HTML5, CSS3, and JavaScript
+[/] File format .html
+
+
+HTML5 REQUIREMENTS
+
+[x] Page title
+[x] Paragraphs
+[x] Headings
+[x] Class attribute
+[ ] Id attribute
+[x] Div / block / inline element
+[ ] Abbreviation
+[/] Ordered / unordered / definition list
+[ ] Table
+[x] Image
+[/] Open page in same tab / new tab
+[ ] Form for user feedback
+[ ] Email / iframe
+[/] Hyperlink text / image / thumbnail
+[ ] Audio / video
+
+
+CSS3 REQUIREMENTS
+
+[x] External CSS
+[x] CSS website layout
+[x] Single element selector
+[ ] Multiple element selector
+[ ] Select by id
+[x] Select by class
+[x] Background color
+[x] Font color
+[x] Font style
+[x] Text styling
+[x] List styling
+[ ] Table styling
+[x] Margin and padding
+[x] Overflow
+[ ] Form styling
+
+
+SEMANTIC HTML5 REQUIREMENTS
+
+[x] header
+[x] nav
+[x] main
+[ ] section
+[ ] article
+[ ] footer
+
+
+JAVASCRIPT REQUIREMENTS
+
+[ ] JavaScript interaction
+[ ] script.js file
+[ ] JavaScript comments
+
+
+COMMENTS REQUIREMENTS
+
+[x] HTML comments
+[x] CSS comments
+[ ] JavaScript comments
+
+
+HOSTING REQUIREMENT
+
+[ ] Free web hosting
+
+
+PRESENTATION REQUIREMENTS
+
+[x] Project title
+[x] Brief explanation
+[ ] Explain sitemap
+[ ] Explain wireframe
+[ ] Explain HTML5 elements
+[ ] Explain CSS3 elements
+[ ] Explain semantic HTML5 elements
+[ ] Explain JavaScript
+[ ] Explain comments
+[ ] Explain free web hosting
+
+
+SUBMISSION THROUGH VLE
+
+[ ] HTML files
+[] CSS file
+[ ] JavaScript file
+[ ] Images/resources folder
+
+
+CURRENT PROGRESS SUMMARY
+
+[x] Topic chosen
+[x] Homepage started
+[x] Background image working
+[x] Navbar created
+[x] CSS file started
+[/] Some HTML5 elements added
+[ ] Other 5 pages
+[ ] Sitemap
+[ ] Wireframes
+[ ] JavaScript
+[ ] Contact form
+[ ] Hosting

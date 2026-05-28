@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+}
+
+/* fullscreen homepage bg*/
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+        ), url("images/shutterstock_749951104.jpg");
+        background-size: cover;
+        background-position: center;
+        color:white;
+        position: relative;
+        overflow: hidden;
+}
+
+/* Navigation bar layout */
+.navbar {
+    width: 100%;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Website logo text */
+.logo {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/* Navigation list */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+/* Navigation links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+    color: #ffd166;
+}
+
+/* Main content position */
+.header-content {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    max-width: 850px;
+}
+
+/* Small title */
+.small-title {
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+/* Big homepage heading */
+.header-content h1 {
+    font-size: 70px;
+    line-height: 1;
+    margin-bottom: 30px;
+    text-transform: lowercase;
+}
+
+/* Description paragraph */
+.description {
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 520px;
+    margin-bottom: 25px;
+}
+
+/* Button design */
+button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: white;
+    color: #222;
+}
+
+/* JavaScript message */
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ffd166;
+}
+
+/* Left side information */
+.side-info {
+    position: absolute;
+    left: 60px;
+    bottom: 120px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+/* Bottom text */
+.bottom-info {
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+    right: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+
+
+/* Make website responsive for phone */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .header-content {
+        top: 32%;
+        left: 8%;
+        right: 8%;
+    }
+
+    .header-content h1 {
+        font-size: 50px;
+    }
+
+    .side-info {
+        display: none;
+    }
+
+    .bottom-info {
+        left: 20px;
+        right: 20px;
+        font-size: 12px;
+    }
+}
+
+/*Preview section */
+.preview-section {
+    background-color: #4e3232;
+    color: white;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.preview-section h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    color:#ffffff
+}
+
+.preview-intro {
+    text-align: center;
+    font-size: 17px;
+    max-width: 750px;
+    margin: 0 auto 45px auto;
+    line-height: 1.7;
+    color: #dddddd
+}
+
+.preview-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+/* Individual preview card */
+.preview-card {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+        ), url("images/shutterstock_749951104.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 35px 25px;
+        min-height: 280px;
+        text-align: center;
+        transition: 0.5s;
+}
+
+
+.preview-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Card heading */
+.preview-card h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: transform 0.5s ease;
+}
+.preview-card:hover h3{
+    transform: translateY(70px);
+}
+
+/* Footer design */
+footer {
+    background-color: #ff7676;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
