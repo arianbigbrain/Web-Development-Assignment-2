@@ -6,7 +6,7 @@ A website to show attraction to one of the best state in Malaysia which is Kelan
 - css
 - html
 ## The Code 👩‍💻
-[All of the code and images](/web-development.md)
+[All of the code and images](/web development)
 
 ## Homepage 
 <img width="1600" height="785" alt="image" src="https://github.com/user-attachments/assets/a3544cb7-f815-4ef7-ae2e-d478bacabc26" />
