@@ -1,0 +1,49 @@
+body {
+    background-color: blanchedalmond;
+}
+/* header*/
+.header {
+    text-align: center;
+}
+/* font */
+.header h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    background-color:rgb(253, 255, 238);
+    width: 85%;
+    max-width: 1200px;
+    margin: 70px auto;
+    border-radius: 20px;
+    padding: 90px;
+    box-shadow: 0 10px 30px rgba(0,0,0.15)
+}
+
+ol{
+    padding-left: 20px;
+}
+
+ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 8px
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    gap: 30px;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
